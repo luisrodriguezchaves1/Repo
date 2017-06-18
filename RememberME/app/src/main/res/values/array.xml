@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_options_esp">
+        <item>Hoy</item>
+        <item>Notas</item>
+        <item>Perfil</item>
+        <item>Respaldo</item>
+        <item>Seguridad</item>
+        <item>Configuración</item>
+        <item>Acerca de nosotros</item>
+    </string-array>
+
+    <string-array name="nav_options_eng">
+        <item>Today</item>
+        <item>Notes</item>
+        <item>Profile</item>
+        <item>Backup</item>
+        <item>Security</item>
+        <item>Setup</item>
+        <item>About us</item>
+    </string-array>
+</resources>
