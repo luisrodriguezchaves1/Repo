@@ -6,6 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundN">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
     <!-- The main content view -->
 
     <FrameLayout
@@ -13,6 +17,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
+        <TextView
+            android:id="@+id/remembermetxt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="125dp"
+            android:text="Remember ME"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
     </FrameLayout>
     <!-- The navigation drawer -->
     <ListView android:id="@+id/left_drawer"
